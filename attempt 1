@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+      <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Space+Mono&display=swap" rel="stylesheet">
+
+        </head>
+<body>
+    <h1 class="name">Xavier LeBlanc</h1>
+    <p class="intro">Hi! My name is Xavier LeBlanc, I am an entry level web developer and cybersecurity analyst, this site is to be a reference of my skills.</p>
+    <h4>Skills</h4>
+        <ul class="skills">
+            <li>HTML Programming</li>
+            <li>Cascading Style Sheets</li>
+            <li>Cybersecurity for Business course</li>
+            <li>Bash Scripting</li>
+            <li>Nmap Scanning</li>
+        </ul>
+    <h4>Currently learning</h4>
+        <ul class="learning">
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Lua</li>
+            <li>Java</li>
+            
+        </ul>
+
+    <h4>Work Experience</h4>
+        <ul class="experience">
+            <li>Head Machinist at Blind Specialist LLC</li>
+            <li>Shipping Lead at Howell Furniture</li>
+            <li>Supervisor at Magic Express Lube</li>
+            <li>Maintenance Crew at Nederland ISD</li>
+        </ul>
+    <h3>About Me</h3>
+    
+    <img src="https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,h_1200,q_75,w_1200/v1/clients/sanantoniotx/San_Antonio_Skyline_2021_Graphic_Designer_Files_8c013beb-1046-40e4-be19-fae36ffca28a.jpg" alt="Image of San Antonio" style="height: 256px; width: 512px;">
+    <p class"aboutme">I grew up in a large family with five siblings, spending my teen years in Belize I often turned to computers to keep myself occupied. I love tinkering, modifying, and trying to figure out how all sorts of computers and electronics work. It wasn't until recently that I took the leap into pursuing tech as a career however. I appreciate your interest in this decision and I hope you stick around to watch the journey. Thank you! </p>
+    <h5>In Conclusion</h5>
+    <p class="closing">Although I dont currently have any work experience in the technology field I have spent several years 
+        enveloping myself in the field as a hobbyist, I hope to be given an opportunity to share my passion for the field and dedication to my work
+    with you in the future. </p>
+
+
+    <button>Click Me!</button>
+  
+</body>
+
+
+body {
+    
+    font-family: 'Space Mono', monospace;
+    background-color: #33364d;
+    color: #fceeef;
+    text-align: center;
+}
+h4 {
+  font-style: bold;
+}
+ul {
+  list-style-type: square;
+
+}
+.aboutme {
+
+  
+}
+button {
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0px 5px;
+  }
+  
+  button:hover {
+    cursor: pointer;
+  }
+  
+  button:active {
+    margin-top: 5px;
+    color: black;
+    box-shadow: 0px 0px;
+  }
+
+
+
+
+
+
+</html>
+
+
